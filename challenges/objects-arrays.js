@@ -126,7 +126,9 @@ The zoos want to display both the scientific name and the animal name in front o
 
 */
 const displayNames = [];
-  zooAnimals.forEach(element => displayNames.push(`Name: ${element.animal_name}, Scientific: ${elememt.scientific_name}`))
+zooAnimals.forEach(animal => {
+  return (displayNames.push(`${animal.animal_name} ${animal.scientific_name}`))
+})
 console.log(displayNames);
 
 /* Request 2: .map()
