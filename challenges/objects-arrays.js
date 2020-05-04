@@ -32,7 +32,7 @@
     name: 'velociraptor',
     diet: 'carnivorous',
     weight: '15kg',
-    length: '1.8',
+    length: '1.8m',
     period: 'Late Cretaceous',
   }
 
@@ -42,7 +42,7 @@
 console.log(dino1.weight);
 
 // What was the diet of a velociraptor?
-console.log(dino3.diet;
+console.log(dino3.diet);
 
 // How long was a stegosaurus?
 console.log(dino2.length);
