@@ -42,7 +42,7 @@
 console.log(dino1.weight);
 
 // What was the diet of a velociraptor?
-console.log(dino3.carnivorous);
+console.log(dino3.diet;
 
 // How long was a stegosaurus?
 console.log(dino2.length);
